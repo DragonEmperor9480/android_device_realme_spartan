@@ -338,7 +338,7 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 #Oplus Camera
-$(call inherit-product, vendor/oplus/camera/opluscamera.mk)
+$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
 
 # Overlays
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
