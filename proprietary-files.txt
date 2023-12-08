@@ -559,11 +559,6 @@ vendor/lib64/libqdutils.so
 vendor/lib64/libsdmcore.so
 vendor/lib64/libsdmutils.so
 
-# Display (RC1 HAL) - from Magisk Module
-vendor/lib/vendor.qti.hardware.display.mapperextensshim.so.idb
-vendor/lib64/vendor.qti.qspmhal-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.display.mapperextensshim.so.idb
-
 # Display (SDM)
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libdisplayskuutils.so
@@ -736,85 +731,52 @@ vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
-# Graphics (Adreno) - From Module
-vendor/lib/android.hardware.graphics.mappershim.so|f4d65a56379b4931befbf49ce67449a205d3f0fb
-vendor/lib/android.hardware.graphics.mappershim.so.idb|870b14c11b1ae5b584efec61d70ac9d7305c4112
-vendor/lib/egl/eglSubDriverAndroid.so|040428039cf1b8e64cc431eae5214f64f5221862
-vendor/lib/egl/libEGL_adreno.so|f3d9c9e041cdb4dbe9fc3eb536c974b34b67cc25
-vendor/lib/egl/libGLESv1_CM_adreno.so|657a8e53e872f59e6b8782283fca015931587653
-vendor/lib/egl/libGLESv2_adreno.so|e76bcff6ed8b704c04aae64cad6c5a56fd546846
-vendor/lib/egl/libVkLayer_ADRENO_qprofiler.so|0da0bcd46bfb7b77e797c31b2cf00be97f182961
-vendor/lib/egl/libq3dtools_adreno.so|c25f8e2a0626b45102f9c77ff252a5a4da073e30
-vendor/lib/egl/libq3dtools_esx.so|526357207b20acc0eb3572ad5c0f066836a68130
-vendor/lib/libC2D2.so|c1916f2adb917f3567b872670496994456472586
-vendor/lib/libCB.so|e0f57af9f73d0b3278ad39a2c4d2c8ca664de970
-vendor/lib/libOpenCL.so|be3067845af3b7d49ce2fcdd99625e4cd8276f09
-vendor/lib/libVkLayer_q3dtools.so|7315ae6650c6f0d8850ca3461f6c9d42b0198727
-vendor/lib/libadreno_app_profiles.so|1e3ec6da85ccec48c82a4b7c234d76a32a1117d5
-vendor/lib/libadreno_utils.so|8c64fe7ba805523f6f7a3ab4cb4edc64c9ef0225
-vendor/lib/libc2d30_bltlib.so|90766895641fbda817bb2818a0538cb66be62d8b
-vendor/lib/libgpudataproducer.so|147c453384a19a5c10709f2cceb36bd9431bbbbb
-vendor/lib/libgsl.so|f497b0eb391c3a62cbc92621f75b48cc64ca72d4
-vendor/lib/libkcl.so|7aae4d3e1d7c4937c86e9be3c4ae3a794dc8dee9
-vendor/lib/libllvm-glnext.so|2dc47bc240cd343c0619d79fc598aa79bc0bd897
-vendor/lib/libllvm-qcom.so|7ea74959fc794353acc17d3fe3e749ec274b8907
-vendor/lib/libllvm-qgl.so|9a507fad7428d79b81b22aa6b6ae30ab9ef99020
-vendor/lib/notadreno_utils.so|bcc5e3cf624f5113241bc1769515c542e17bcd8f
-vendor/lib/notdmabufheap.so|204ed0a78a49e9c0d5a45a40de979ccc16d25d16
-vendor/lib/notgsl.so|27da01c19f0e867c59bb1d3cfe02b46128d984bd
-vendor/lib/notllvm-glnext.so|bdcfaa4b9370397f0d4f108995de073784bbaf35
-vendor/lib/notllvm-qgl.so|2c2790dc90fede7be09d065c68d8d8a8d2309aed
-vendor/lib/vendor.qti.hardware.display.mapperextensionsshim.so|48d2eac3e2cc02418709892b123f72a1f4a014f8
-vendor/lib/vendor.qti.hardware.display.mapperextensshim.so.idb|83c13d4d7c4af04053f6da4d492f7a40cdcdfd4d
-vendor/lib/vendor.qti.hardware.display.mappershim.so|3edc8beec8424fff247fa9e9b8debfe808e302d7
-vendor/lib64/android.hardware.graphics.mappershim.so|768a92ff2b96fb863774fd5a0ddd645d5c1ae64e
-vendor/lib64/egl/eglSubDriverAndroid.so|5e82aa14d39d27a44b64d9983b84f203d4bb9323
-vendor/lib64/egl/libEGL_adreno.so|88921fc02bafc0b348e22066a971db057712037c
-vendor/lib64/egl/libGLESv1_CM_adreno.so|bf55566923dd67ab31213502b22b9c99c5c4f0ff
-vendor/lib64/egl/libGLESv2_adreno.so|14a9d65bde2b41ff8eb9863642bd54202ecb358e
-vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so|f5fc9d5279903398608aafa8e3b5a2f5fe113650
-vendor/lib64/egl/libq3dtools_adreno.so|eaea8297702bcf65ce8c2e572a4d6b0e56a724cb
-vendor/lib64/egl/libq3dtools_esx.so|3231733cce96c4d990df4160ec325d47b787b5af
-vendor/lib64/gpu++.so|d1b3856410902a402bc3e2684f30995d9487c4e7
-vendor/lib64/libC2D2.so|2f5bb4e82006bcc854aa468126bd3fffab339f67
-vendor/lib64/libCB.so|e6499930ab99e17019318518f96d1e25c1154a9a
-vendor/lib64/libOpenCL.so|ce96cb481976251b309fed436c28935bad5f3e64
-vendor/lib64/libVkLayer_q3dtools.so|70781f1329cf25036cfd127a46c8a95e1fe88226
-vendor/lib64/libadreno_app_profiles.so|6417afc92fc2c7206db256d2b0a21db6fae9c216
-vendor/lib64/libadreno_utils.so|a02485d0c995e324fe283c597ec8ae72055c681e
-vendor/lib64/libbase64.so|552ff272752092b744f81f71546efa658776f908
-vendor/lib64/libc2d30_bltlib.so|6dfc4b3393a83113a91e2a3d8c2e4e58a62636dc
-vendor/lib64/libgpudataproducer.so|c25e4db6fdfd5bbf2ed1c0cda39b404e146e222a
-vendor/lib64/libgpumemtracer.so|254cef735e2bd98405bf96c2b55f4d80e366486d
-vendor/lib64/libgpuservice.so|85fc3325b410021ba208167d35fed15920a22ef1
-vendor/lib64/libgsl.so|5ea44d17d976df1e7f2c0a9b577509417c2706cb
-vendor/lib64/libkcl.so|d13333d47e50a7f5d7ba4ba6568064534feffec5
-vendor/lib64/libllvm-glnext.so|3b933c35c0a013ea5c52938e75ad478f872a8ca0
-vendor/lib64/libllvm-qcom.so|7b470265d6cb64b73fef276ffa7ccaef61150f1e
-vendor/lib64/libllvm-qgl.so|bcd09c7afe9c7d2aa292e4d5c871dbb9ce551184
-vendor/lib64/libq3dtools_adreno.so|eaea8297702bcf65ce8c2e572a4d6b0e56a724cb
-vendor/lib64/notadreno_utils.so|607ff705690c6d98d9e2cfa59a30607399582662
-vendor/lib64/notdmabufheap.so|f6b2fc871d172e29ab98743a3c32af19be6d247d
-vendor/lib64/notgsl.so|35829ea86baf96088444202fc92247f604c614a3
-vendor/lib64/notllvm-glnext.so|1a4e86a199e969ae16da969347b16b548bf956b4
-vendor/lib64/notllvm-qgl.so|21be85a7379cd00144837c75e9211e94708f0f0d
-vendor/lib64/vendor.qti.hardware.display.mapperextensionsshim.so|aeac0760e09f98eef3bef3df8a8e4afb259d3639
-vendor/lib64/vendor.qti.hardware.display.mapperextensshim.so.idb|a0e04c0627a3e9f106a3fbd090748335245bf879
-vendor/lib64/vendor.qti.hardware.display.mappershim.so|d8499ba39bac8bcdbaffc3e1ad843d3c26e5b4d1
-vendor/lib64/vendor.qti.qspmhal-V1-ndk.so|160aced08983cd6039500405ca8dec357dba4204
+# Graphics (Adreno)
+vendor/lib/egl/eglSubDriverAndroid.so
+vendor/lib/egl/libEGL_adreno.so
+vendor/lib/egl/libGLESv1_CM_adreno.so
+vendor/lib/egl/libGLESv2_adreno.so
+vendor/lib/egl/libq3dtools_adreno.so
+vendor/lib/egl/libq3dtools_esx.so
+vendor/lib/libC2D2.so
+vendor/lib/libCB.so
+vendor/lib/libOpenCL.so
+vendor/lib/libVkLayer_q3dtools.so
+vendor/lib/libadreno_utils.so
+vendor/lib/libc2d30_bltlib.so
+vendor/lib/libgpudataproducer.so
+vendor/lib/libgsl.so
+vendor/lib/libllvm-glnext.so
+vendor/lib/libllvm-qcom.so
+vendor/lib64/egl/eglSubDriverAndroid.so
+vendor/lib64/egl/libEGL_adreno.so
+vendor/lib64/egl/libGLESv1_CM_adreno.so
+vendor/lib64/egl/libGLESv2_adreno.so
+vendor/lib64/egl/libq3dtools_adreno.so
+vendor/lib64/egl/libq3dtools_esx.so
+vendor/lib64/libC2D2.so
+vendor/lib64/libCB.so
+vendor/lib64/libOpenCL.so
+vendor/lib64/libVkLayer_q3dtools.so
+vendor/lib64/libadreno_utils.so
+vendor/lib64/libc2d30_bltlib.so
+vendor/lib64/libgpudataproducer.so
+vendor/lib64/libgsl.so
+vendor/lib64/libllvm-glnext.so
+vendor/lib64/libllvm-qcom.so
 
 # Graphics (Adreno firmware)
-vendor/firmware/a650_gmu.bin|c744acb10afb7c980d333c5b6521e2a18993ff14
-vendor/firmware/a650_sqe.fw|a011deb174929b874fb668d7c8041cfb712b6417
-vendor/firmware/a650_zap.b00|8c20cfff20d7fe9814581b353c1f58d38636e8c5
-vendor/firmware/a650_zap.b01|2a00d1a0010aa73bd367cf5376f41ef24d85cafe
-vendor/firmware/a650_zap.b02|270bae014df75a913c6c124155f2cc85706258e6
-vendor/firmware/a650_zap.elf|7b1692a2edfadd2d2d15686dd0162ed6ed9741fa
-vendor/firmware/a650_zap.mdt|8de921a5e3d20affcd843828e3144cb94f3bd027
+vendor/firmware/a650_gmu.bin
+vendor/firmware/a650_sqe.fw
+vendor/firmware/a650_zap.b00
+vendor/firmware/a650_zap.b01
+vendor/firmware/a650_zap.b02
+vendor/firmware/a650_zap.elf
+vendor/firmware/a650_zap.mdt
 
 # Graphics (Vulkan)
-vendor/lib/hw/vulkan.adreno.so|99bc874176b26fa979d029c502d70c35a8acd2b4
-vendor/lib64/hw/vulkan.adreno.so|b72988b1a80385ffbc03a57ec4d4c70003abf390
+vendor/lib/hw/vulkan.adreno.so
+vendor/lib64/hw/vulkan.adreno.so
 
 # GNSS
 odm/etc/izat.conf
