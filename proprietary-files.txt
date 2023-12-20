@@ -121,10 +121,16 @@ system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 
 # Camera
 odm/etc/vintf/manifest/manifest_oplus_cameraextension.xml
+odm/lib/libaiboost.so
+odm/lib/libaiboost_hexagon.so
+odm/lib/libaiboost_nnlib_sr.so
+odm/lib/libaiboost_sr.so
+odm/lib/libaiboost_ubwc.so
 odm/lib/libDeVIS.so
 odm/lib/libaiboost_sr.so
 odm/lib/libc++_shared.so
 odm/lib/libosie_process.so
+odm/lib/libosie_stub.so
 odm/lib64/lib2DSlender.so
 odm/lib64/libAlgoProcess.so
 odm/lib64/libAncFilter.so
